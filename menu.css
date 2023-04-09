@@ -8,8 +8,9 @@
 }
 
 .menu{
-  margin-left: 7px;
-  margin-top: 18px;
+    margin-left: 7px;
+    margin-top: 18px;
+    z-index: 1;
 }
 
 .menu .menu-faketrigger{

@@ -8,7 +8,6 @@
     box-sizing: border-box;
     font-family: 'Itim', sans-serif;
     font-weight: 500;
-    
 }
 :root{
     --primary: #F38686;
@@ -20,9 +19,7 @@
 }
 body{
      background-image: linear-gradient( #FFD397 , #FF9A9E);
-     overflow-y: hidden;
-     overflow-x: hidden;
-     
+
 }
 
 /*cabeçalho */
@@ -48,7 +45,6 @@ header nav {
     align-items: center;
     width: 100%;
     justify-content: right;
-    position: fixed;
 }
 header nav ul{
     list-style-type: none;
@@ -77,90 +73,35 @@ header nav ul li:hover{
 main{
     min-height: calc(100vh - 6rem);
 }
-h1 img{
-    position: fixed;
-    width: 43.5825rem;
-    height: 8.1875rem;
-    top: 5rem;
-    
+
+/* Galeria*/
+
+/* fotos*/
+
+main section.img{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    gap: 0.5rem;
+    padding: 1rem;
 }
-.texto1{
-    position: fixed;
+main section.img img{
+    width: 100%;
+}
+.wrapper{
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+}
+.wrapper img{
     width: 100%;
     height: 100%;
-    left: 20rem;
-    top: 5rem;
-}
-.linha2{
-    position: fixed;
-    width: 117.563rem;
-    height: 0px;
-    left: 0px;
-    top: 20rem;
-
-}
-.linha{
-    position: fixed;
-    width: 100%;
-    height: 0px;
-    left: 21rem;
-    top: 13rem;
-
+    object-fit: cover;
+    transition: transform 400ms;
 }
 
-.texto2{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 5rem;
-    top: 25rem;
+.wrapper:hover img{
+    transform: scale(1.2);
 }
-
-.billie1{
-    position: fixed;
-    width: 15rem;
-    height: 15rem;
-    left: 2rem;
-    top: 4rem;
-
-}
-.billie2{
-    position: fixed;
-    width: 15rem;
-    height: 15rem;
-    left: 65rem;
-    top: 23rem;
-}
-
-main footer{
-    position: fixed;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.titulo{
-    position: fixed;
-    width: 43.583rem;
-    height: 8.188rem;
-    top: 5rem;
-    margin-left: 21rem;
-    
-}
-h2{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 21rem;
-    top: 30%;
-}
-h3{
-    position: fixed;
-    width: 100rem;
-    height: 10rem;
-    left: 21rem;
-    top: 15rem;
-}
-
-
 
 /* Rodapé*/
 
@@ -169,15 +110,15 @@ footer{
     height: 3rem;
     position: fixed;
     bottom: 0%;
-    width: 10rem;
+    width: 100;
 }
 footer img {
     height: 100%;
-    padding: 0.3rem;
+    padding: 0.4rem;
 }
 footer{
 
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 3rem;
     background: #F5E8D3;

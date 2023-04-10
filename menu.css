@@ -14,14 +14,17 @@
 }
 
 .menu .menu-faketrigger{
-    position: flex;
+    position: fixed;
     z-index: 1000;
     width: 35px;
+    height: 35px;
     opacity: 0;
+    padding: 5px 0;
     cursor: pointer;
 }
 
 .menu .menu-lines{
+    padding: 5px 0;
     position: fixed;
     z-index: 999;
     width: 35px;

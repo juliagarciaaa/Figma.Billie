@@ -34,7 +34,7 @@ header{
     width: 100%;
 }
  header picture{
-    margin-left: 1320px;
+    margin-left: 1850px;
     padding: 5px;
     justify-content: right;
  }
@@ -84,23 +84,23 @@ h1 img{
     position: fixed;
     width: 43.583rem;
     height: 8.188rem;
-    top: 5rem;
-    margin-left: 21rem;
+    top: 12rem;
+    margin-left: 55rem;
     
 }
 h3{
     position: fixed;
     width: 100%;
     height: 100%;
-    left: 21rem;
-    top: 15rem;
+    left: 55rem;
+    top: 22rem;
 }
 .linha{
     position: fixed;
     width: 100%;
     height: 0px;
-    left: 21rem;
-    top: 13rem;
+    left: 55rem;
+    top: 20rem;
 
 }
 
@@ -113,7 +113,7 @@ h3{
     width: 117.563rem;
     height: 0px;
     left: 0px;
-    top: 20rem;
+    top: 25rem;
 
 }
 
@@ -122,7 +122,7 @@ h3{
     width: 100%;
     height: 100%;
     left: 20rem;
-    top: 5rem;
+    top: 13rem;
 }
 
 .texto2{
@@ -130,7 +130,7 @@ h3{
     width: 100%;
     height: 100%;
     left: 5rem;
-    top: 25rem;
+    top: 38rem;
 }
 
 .billie1{
@@ -138,7 +138,7 @@ h3{
     width: 15rem;
     height: 15rem;
     left: 2rem;
-    top: 4rem;
+    top: 10rem;
 
 }
 .billie2{
@@ -146,7 +146,7 @@ h3{
     width: 15rem;
     height: 15rem;
     left: 65rem;
-    top: 23rem;
+    top: 32rem;
 }
 
 
